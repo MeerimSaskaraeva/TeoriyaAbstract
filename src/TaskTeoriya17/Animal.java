@@ -46,4 +46,14 @@ public abstract class Animal {
 
 
     }
+
+    @Override
+    public String toString() {
+        return "\nAnimal{" +
+                "weight=" + weight +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", \nnickName='" + nickName + '\'' +
+                '}';
+    }
 }
